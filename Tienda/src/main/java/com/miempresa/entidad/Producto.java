@@ -18,7 +18,7 @@ public class Producto {
      */
     public Producto(String nombre, double precio) {
         if (precio < 0) {
-            throw new IllegalArgumentException("El precio no puede ser negativo: " + precio);
+            throw new IllegalArgumentException("El precio no puede ser negativo: "+ precio);
         }
         this.nombre = nombre;
         this.precio = precio;
